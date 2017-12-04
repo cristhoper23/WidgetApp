@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Activity to be launched,when you first install widget(drag n drop widget to homescreen) we will ignore this now -->
+<appwidget-provider
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/widget_layout"
+    android:minHeight="150dp"
+    android:minWidth="300dp"
+    android:previewImage="@mipmap/ic_launcher"
+    android:resizeMode="vertical|horizontal"
+    android:updatePeriodMillis="15000"/>
